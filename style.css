@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 1em;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+  color: #ff4d4d;
+}
+h2 {
+  color: #000000;
+  text-shadow: 0px 0px 16px #ffe476;
+}
+p {
+  line-height: 1.6;
+  color: #555;
+}
+.received {
+  background-color: #bcdbf0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.sent {
+  background-color: #f0bcbc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background-color: #66c2ff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+footer {
+  --mask:
+    radial-gradient(22.36px at 50% 30.00px,#000 99%,#0000 101%) calc(50% - 20px) 0/40px 100%,
+    radial-gradient(22.36px at 50% -20px,#0000 99%,#000 101%) 50% 10px/40px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  background-color: #ffe6b1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.box_sent {
+  --mask:
+    radial-gradient(74.51px at 50% 100.30px,#000 99%,#0000 101%) calc(50% - 68px) 0/136px 51% repeat-x,
+    radial-gradient(74.51px at 50% -66.3px,#0000 99%,#000 101%) 50% 34px/136px calc(51% - 34px) repeat-x,
+    radial-gradient(74.51px at 50% calc(100% - 100.30px),#000 99%,#0000 101%) calc(50% - 68px) 100%/136px 51% repeat-x,
+    radial-gradient(74.51px at 50% calc(100% + 66.30px),#0000 99%,#000 101%) 50% calc(100% - 34px)/136px calc(51% - 34px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  background-color: #f0bcbc;
+  padding: 40px;
+}
+
+.box_received {
+  --mask:
+    radial-gradient(74.51px at 50% 100.30px,#000 99%,#0000 101%) calc(50% - 68px) 0/136px 51% repeat-x,
+    radial-gradient(74.51px at 50% -66.3px,#0000 99%,#000 101%) 50% 34px/136px calc(51% - 34px) repeat-x,
+    radial-gradient(74.51px at 50% calc(100% - 100.30px),#000 99%,#0000 101%) calc(50% - 68px) 100%/136px 51% repeat-x,
+    radial-gradient(74.51px at 50% calc(100% + 66.30px),#0000 99%,#000 101%) 50% calc(100% - 34px)/136px calc(51% - 34px) repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  background-color: #bcdbf0;
+  padding: 40px;
+}
